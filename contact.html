@@ -1,0 +1,159 @@
+<html>
+
+<head>
+    <title>Personal Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="index.js"></script>
+    <script>
+        let contact = document.getElementsByClassName("contact");
+        console.log(contact);
+
+        setInterval(function () {
+            contact[0].style.color = "green";
+
+            setTimeout(function () {
+                contact[0].style.color = "orange";
+            }, 500)
+
+        }, 900);
+    </script>
+</head>
+
+<style>
+    form {
+        font-size: 12pt;
+    }
+
+    /* GET IN TOUCH */
+    h2 {
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serifS;
+        margin-top: 50px;
+    }
+
+    .button {
+        cursor: pointer;
+        border: none;
+        float: right;
+        margin-top: 13px;
+        margin-bottom: 70px;
+    }
+</style>
+
+<body>
+
+    <!-- Awal Nabvbar -->
+    <nav>
+        <!-- Left -->
+        <div class="left-side">
+            <img src="assets/logonadia.png" alt="" width="50px">
+            <ul>
+                <li style="font-weight: bold;"><a href="blog.html">Home</a></li>
+                <li><a href="blog.html">My Project</a></li>
+            </ul>
+        </div>
+
+        <!-- Right -->
+        <div class="right-side">
+            <a href="contact.html">Contact Me</a>
+        </div>
+
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <h2 class="contact fw-bold">GET IN TOUCH</h2>
+
+    <!-- First Form -->
+    <form style="width: 400px; margin: auto; margin-top: 40px;">
+        <!-- Name -->
+        <div style="margin-bottom: 20px;">
+            <label for="input-name">Name</label>
+            <input type="text" class="form-control" id="input-name" style="
+                width: 100%;
+                background-color: #fff;
+                border: 1px solid rgb(199,199,199);
+                border-radius: 5px;
+                padding: 8px;
+                ">
+        </div>
+        <!-- Name -->
+
+        <!-- Email -->
+        <div style="margin-bottom: 20px;">
+            <label for="input-email">Email</label>
+            <input type="email" id="input-email" class="form-control" style="
+                width: 100%;
+                background-color: #fff;
+                border: 1px solid rgb(199,199,199);
+                border-radius: 5px;
+                padding: 8px; 
+                ">
+        </div>
+        <!-- Email -->
+
+        <!-- Phone Number -->
+        <div style="margin-bottom: 20px;">
+            <label for="input-number">Phone Number</label>
+            <input type="text" id="input-number" class="form-control" style="
+                width: 100%;
+                background-color: #fff;
+                border: 1px solid rgb(199,199,199);
+                border-radius: 5px;
+                padding: 8px; 
+                ">
+        </div>
+        <!-- Phone Number -->
+
+        <!-- Subject -->
+        <div style="margin-bottom: 20px">
+            <label for="select-subject">Subject</label>
+            <select id="select-subject" style="
+                width: 100%;
+                background-color: #fff;
+                border: 1px solid rgb(199,199,199);
+                border-radius: 5px;
+                padding: 8px;
+                ">
+                <option></option>
+                <option>Front End Developer</option>
+                <option>Back End Developer</option>
+                <option>Fullstack Developer</option>
+            </select>
+        </div>
+        <!-- Subject -->
+
+        <!-- Your Message -->
+        <div style="margin-bottom: 25px">
+            <label for="input-meesage">Your Message</label>
+            <textarea id="input-message" style="
+                width: 100%;
+                background-color: #fff;
+                border: 1px solid rgb(199,199,199);
+                border-radius: 5px;
+                padding: 8px; 
+                height: 100px;
+                resize: none;
+                "></textarea>
+        </div>
+        <!-- Your Message -->
+
+        <!-- Submit -->
+        <div class="button">
+            <button style="
+                padding: 7px 32px; 
+                background-color: black; 
+                color: #fff; 
+                border-radius: 20px;
+                cursor: pointer;
+                " onclick="submitForm()" type="button">Submit</button>
+        </div>
+        <!-- Submit -->
+
+    </form>
+    <!-- End Form -->
+</body>
+
+</html>

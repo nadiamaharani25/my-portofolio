@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap');
+
+body {
+    margin: 0;
+    background-color: rgb(220, 223, 228);
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(231, 231, 231);
+    height: 9vh;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav div {
+    display: flex;
+    padding-left: 70px;
+    padding-right: 70px;
+    align-items: center;
+    background-color: rgb(252, 95, 121);
+}
+
+nav .left-side {
+    flex: 50%;
+}
+
+nav .left-side a {
+    padding: 20px;
+}
+
+nav .right-side {
+    flex: 50%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav .right-side a {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.container-main {
+    display: flex;
+    height: 93vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-content {
+    display: flex;
+    width: 90%;
+    height: 85%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 5px 2px 3px rgb(180, 180, 180);
+}
+
+.container-content .left-side {
+    flex: 65%;
+    padding: 70px 0px 70px 0px;
+    margin-left: 50px;
+}
+
+.container-content .right-side {
+    flex: 35%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-right: 50px;
+}
+
+/* Contact */
+.btn {
+    background-color: black;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+/* download CV */
+.download {
+    font-size: 13pt;
+    margin-left: 120px;
+    margin-top: -47px;
+}
+
+.img_download {
+    margin-left: 130px;
+    margin-top: -40px;
+    cursor: pointer;
+}
+
+.sosial-media {
+    display: inline-block;
+    padding: 30px 0px;
+}
+
+/* Linkedin, Instagram, Twitter */
+.sosial-media .icon-sosmed {
+    cursor: pointer;
+    font-size: 22px;
+    display: inline-block;
+}
+
+/* Facebook */
+.sosial-media .icon2 {
+    cursor: pointer;
+    margin-top: -40px;
+    margin-left: 105px;
+}
+
+/* Linkedin, Instagram, Twitter */
+.sosial-media .icon-sosmed a {
+    margin: auto;
+    padding: 0px 4px 0px 5px;
+    border-radius: 80px;
+    margin-right: 20px;
+}
+
+/* Facebook */
+.sosial-media .icon2 a {
+    color: black;
+    background-color: white;
+    font-size: 30px;
+    padding-left: 5px;
+}
+
+.box {
+    border: 1px solid black;
+    box-shadow: 3px 2px 3px black;
+    margin-left: 58px;
+    border-radius: 2px;
+    width: 85%;
+    height: 100%;
+    text-align: center;
+}
+
+.box .img-profile {
+    width: 100%;
+    height: 85%;
+    margin-bottom: -10px;
+}
+
+
+
+/* ============================================================================================== */
+
+
+/* BLOG STYLE */
+.blog-form {
+    display: flex;
+    padding: 50px 0px;
+    justify-content: center;
+}
+
+.blog-form .form-container {
+    width: 500px;
+}
+
+.blog-form .form-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.blog-form form {
+    height: 700px;
+}
+
+.blog-form form label {
+    font-size: 12pt;
+    font-weight: 400;
+}
+
+.blog-form form input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 20px;
+    background-color: white;
+    border: 0px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 1px 2px 1px rgb(122, 122, 122);
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.blog-form textarea {
+    height: 120px;
+}
+
+
+/* DATE */
+.blog-form .dates {
+    display: flex;
+}
+
+.blog-form .dates .left-side {
+    flex: 50%;
+    padding-right: 20px;
+}
+
+.blog-form .dates .right-side {
+    flex: 50%;
+}
+
+
+/* TECHNOLOGIES */
+.blog-form .form-container .technologies {
+    margin: auto;
+}
+
+.blog-form .form-container .technologies .input-box-wrapper {
+    margin-top: 10px;
+    display: flex;
+}
+
+.technologies .input-box-wrapper .box1 {
+    margin-left: -95px;
+    margin-right: 50px;
+    color: rgb(114, 113, 113);
+
+}
+
+
+
+/* BLOG IMAGE GROUP */
+.blog-form form .blog-image-group {
+    display: flex;
+    background-color: #f4f3f3;
+    margin-bottom: 35px;
+    margin-top: 5px;
+    border: 0px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 1px 2px 1px rgb(122, 122, 122);
+}
+
+.blog-form form .blog-image-group .left-side {
+    flex: 25%;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(214, 214, 210);
+    border-radius: 8px;
+    border: 0.5px solid rgb(165, 165, 165);
+}
+
+.blog-form form .blog-image-group .right-side {
+    flex: 75%;
+    color: black;
+    background-color: white;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 2px 1px 2px 1px rgb(122, 122, 122);
+    cursor: pointer;
+}
+
+.blog-form form .blog-image-group label p {
+    font-size: 12pt;
+    color: rgb(114, 113, 113);
+
+}
+
+.rotate90 {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin-left: 330px;
+    margin-top: 13px;
+    height: 30px;
+}
+
+/* Form Submit */
+.blog-form form button {
+    color: white;
+    background-color: black;
+    padding: 8px 38px;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.blog-form form .button-group {
+    float: right;
+}
+
+
+/* BLOG LIST => MY PROJECT */
+.blog .container h2 {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.blog .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container #contents {
+    display: flex;
+    flex-wrap: wrap;
+    width: 82%;
+    height: 100%;
+}
+
+.container .blog-list {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.blog .blog-list {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    align-items: center;
+}
+
+.blog .blog-list .blog-list-item {
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border: 2px solid #dbdbdb;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 2px 1px 2px 1px rgb(116, 115, 115);
+    width: 30%;
+    height: 610px;
+    margin: 20px 15px;
+    margin-left: 17px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.blog .blog-list .blog-list-item .blog-image {
+    flex: 1;
+}
+
+.blog .blog-list .blog-list-item .blog-image img {
+    width: 90%;
+    height: 250px;
+    margin: auto;
+    margin-top: 15px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.blog .blog-list .blog-list-item .blog-content {
+    padding-left: 10px;
+    flex: 3;
+}
+
+.blog .blog-list .blog-list-item .icon {
+    width: 50%;
+    display: inline;
+    font-size: 50px;
+    color: black;
+    margin-left: -70px;
+}
+
+.blog .blog-list .icon i {
+    display: inline;
+}
+
+.blog .blog-list .button-group {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 75px;
+}
+
+.blog .blog-list .button-group .button-edit {
+    flex: 50%;
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 8px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    margin-top: -50px;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.blog .blog-list .button-group .button-delete {
+    flex: 50%;
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 8px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    margin-top: -50px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.blog .blog-list h3 {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.blog .blog-list h3 a {
+    color: black;
+}
+
+.blog .blog-list-item h5 {
+    color: rgb(114, 113, 113);
+    margin-top: -20px;
+    margin-left: 20px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.blog .blog-list .blog-list-item p {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: justify;
+    color: black;
+}
+
+.blog .blog-list .detail-blog-content p {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* BLOG DETAIL */
+.blog-detail {
+    justify-content: center;
+}
+
+.blog-detail-h {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+}
+
+.blog-detail-container {
+    display: flex;
+    margin: 30px 0;
+    height: 93vh;
+}
+
+.blog-detail-container .container-content-detail {
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    width: 80%;
+    height: 550px;
+}
+
+.blog-detail-container .left-side {
+    flex: 70%;
+    margin: auto;
+}
+
+.blog-detail-container .right-side {
+    flex: 30%;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+
+.blog-detail-container img {
+    width: 100%;
+    margin: auto;
+}
+
+.blog-detail-container h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 120%;
+    margin-bottom: 15px;
+}
+
+.blog-detail-container p {
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: justify;
+}
+
+.right-side .duration .calender img,
+.clock img {
+    width: 35px;
+    color: black;
+}
+
+.right-side .duration .calender p,
+.clock p {
+    margin-left: 50px;
+    margin-top: -30px;
+    color: rgb(114, 113, 113);
+}
+
+.blog-detail-container .container-content-detail .technologies {
+    padding-top: 15px;
+}
+
+.technologies .icon1 i {
+    font-size: 30px;
+    color: black;
+}
+
+.technologies .icon1 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline;
+    color: rgb(114, 113, 113);
+    margin-left: 7px;
+    margin-right: 37px;
+}
+
+.technologies .icon2 i {
+    font-size: 27px;
+    color: black;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 37px;
+}
+
+.technologies .icon2 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline;
+    color: rgb(114, 113, 113);
+    margin-left: 8px;
+}
+
+.blog-detail .card {
+    display: flex;
+    margin: auto;
+    margin-top: -100px;
+    width: 80%;
+}
+
+.blog-detail .card p {
+    width: 100%;
+    height: 400px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: justify;
+}

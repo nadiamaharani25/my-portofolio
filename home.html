@@ -1,0 +1,145 @@
+<html>
+
+<head>
+    <title>Personal Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script>
+        // Paragraf
+        let paragraf = document.getElementsByClassName("card-text");
+        console.log(paragraf);
+
+        setInterval(function () {
+            paragraf[0].style.color = "rgb(241, 113, 218)";
+
+            setTimeout(function () {
+                paragraf[0].style.color = "black";
+            }, 500)
+
+        }, 900);
+
+        // Welcome To My Portofolio
+        let cardtitle = document.getElementsByClassName("card-title");
+        console.log(cardtitle);
+
+        setInterval(function () {
+            cardtitle[0].style.color = "green";
+
+            setTimeout(function () {
+                cardtitle[0].style.color = "rgb(221, 46, 104)";
+            }, 300)
+
+        }, 500);
+    </script>
+</head>
+
+<body>
+    <!-- First Nabvbar -->
+    <nav>
+        <!-- Left Side-->
+        <div class="left-side">
+            <img src="assets/logonadia.png" alt="" width="50px">
+            <ul>
+                <li style="font-weight: bold;"><a href="home.html">Home</a></li>
+                <li><a href="blog.html">My Projects</a></li>
+            </ul>
+        </div>
+        <!-- Left Side -->
+
+        <!-- Right Side-->
+        <div class="right-side">
+            <a href="contact.html">Contact Me</a>
+        </div>
+        <!-- Right Side -->
+
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- First Container -->
+    <div class="container-main">
+        <div class="container-content">
+
+            <!-- Left Side -->
+            <div class="left-side">
+                <h2 class="card-title fw-bold">Hi Welcome to My Portofolio</h2>
+                <p style="text-align: justify;">Hai,
+                    Saya Nadia Maharani. Saya berasal dari Palembang, Sumatera Selatan. Saya punya mimpi untuk bisa
+                    menjadi seorang programmer, baik itu
+                    Frontend, Backend, bahkan Fullstack Developer. Saya juga menyukai Desain Grafis dan Multimedia.
+                    Dan Saya juga punya mimpi untuk bisa mendirikan
+                    perusahaan startup sendiri nantinya.
+                    Saya ingin untuk kedepannya nanti, Saya bisa menciptakan suatu aplikasi dan desain yang menarik serta
+                    bermanfaat untuk banyak orang.
+                </p>
+
+                <button type=" button" class="btn"><a href="https://www.whatsapp.com/" target="_blank">contact</a></button>
+
+                <div class="download">
+                    <p>download CV</p>
+                    <a href="https://drive.google.com/file/d/1c-qrsCJEl_7K_eABzuz-e4QT4x-xDUt-/view?usp=sharing" target="_blank"><img src="assets/download.png" class="img_download"
+                            width="17px"></a>
+                </div>
+
+                <!-- Sosial Media -->
+                <div class="sosial-media">
+                    <div class="icon-sosmed">
+                        <!-- Linkedin -->
+                        <a href="https://www.linkedin.com/login/in" style="
+                            color: white;
+                            background-color: black;">
+                            <i class="fa-brands fa-linkedin-in">
+                        </a></i>
+                        <!-- Linkedin -->
+
+                        <!-- Instagram -->
+                        <a href="https://instagram.com" style="
+                            color: white; 
+                            background-color: black;">
+                            <i class="fa-brands fa-instagram">
+                        </a></i>
+                        <!-- Instagram -->
+
+                        <!-- Twitter -->
+                        <a href="https://twitter.com/i/flow/login" style=" 
+                            color: white; 
+                            background-color: black; 
+                            margin-left: 60px; 
+                            margin-top: -10px;">
+                            <i class="fa-brands fa-twitter"></a></i>
+                        <!-- Twitter -->
+
+                        <!-- Facebook -->
+                        <div class="icon2">
+                            <a href="https://id-id.facebook.com/" style="
+                                font-size: 31px; ">
+                                <i class="fa-brands fa-facebook"></a></i>
+                        </div>
+                        <!-- Facebook -->
+                    </div>
+                </div>
+                <!-- Sosial Media -->
+            </div>
+            <!-- Left Side -->
+
+
+            <!-- Right Side -->
+            <div class="right-side">
+                <div class="box">
+                    <img src="assets/photo.png" alt="" class="img-profile">
+                    <h3>Nadia Maharani</h3>
+                    <p class="job" style="font-size: 10pt; margin-top: -25px;">
+                        Fullstack
+                        Developer</p>
+                </div>
+            </div>
+            <!-- Right Side -->
+
+        </div>
+    </div>
+    <!-- End Container -->
+</body>
+
+</html>
